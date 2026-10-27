@@ -1,0 +1,154 @@
+
+/*for desktop devices*/
+@media (min-width: 907px) {
+/*nav bar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: red;
+    text-shadow: 0px 0px 10px red;
+}
+
+/*about section*/
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#hero h2{
+    font-family: fantasy;
+    color: red;
+}
+
+#hero p{
+    text-align: justify;
+    width:50%;
+}
+
+/*feature section*/
+
+#feature{
+    display: flex;
+    justify-content: space-around;
+    
+    box-shadow: 0px 0px 10px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*footer section*/
+
+footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer p{
+    font-size: 12px;    
+}
+}
+
+/*for tablette & phones devices*/
+@media (max-width: 907px){
+/*nav bar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: red;
+    text-shadow: 0px 0px 10px red;
+}
+
+/*about section*/
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#hero h2{
+    font-family: fantasy;
+    color: red;
+}
+
+#hero p{
+    text-align: justify;
+    width:50%;
+}
+
+/*feature section*/
+
+#feature{
+    display: grid;
+    grid-template-columns: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card1, #card2, #card3{
+    margin: 10px;
+    justify-self: center;
+}
+
+/*footer section*/
+
+footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer p{
+    font-size: 12px;    
+}
+}

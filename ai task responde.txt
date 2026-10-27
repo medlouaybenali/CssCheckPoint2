@@ -1,0 +1,5 @@
+after i asked the ai to give me 1 improvement to do, he suggest to add a "mobile media query" to cover the screens Under 481px width.
+i'll add the Following Screenshot to prove this point.
+for this i'm gonna Apply the same layouts for the tablettes in the phones since there's Nothing i can really change just by removing 1 edge of the conditions.
+
+NOTE : i worked with 907px because i found out that the layout start to break after this point so i worked with it instead of 781px to keep the layout clean.
